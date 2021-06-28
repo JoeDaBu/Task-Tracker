@@ -1,11 +1,13 @@
 //import React from 'react'
 import Header from './components/Header'
+import Tasks from './components/Tasks'
 function App() {
   // const name = 'Brad'
   // const x = false
   return (
     <div className='container'>
       <Header />
+      <Tasks/>
       {/* // <h1>Hello From React</h1> */}
       {/* <h2>Hello {name}</h2>
       <h2>Hello {1+1}</h2>
